@@ -128,6 +128,12 @@ body {
 .hero-sec .mySwiper{
   position: relative;
 }
+.hero-sec .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: var(--swiper-pagination-bottom, 110px) !important;
+}
+.swiper-pagination-bullet-active {
+  background: #CBEC5E !important;
+}
 .hero-sec h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
