@@ -189,7 +189,7 @@ const Sucessful = () => {
               <div className="card-details">
                 <div className="d-flex justify-content-between">
                   <h3 className="text-uppercase">contract</h3>
-                  <div className="text-end">
+                  <div className="text-end contract-title">
                     <h4>{contract.title}</h4>
                     <p>
                       <strong>Payment Type:</strong> {contract.paymentType}

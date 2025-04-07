@@ -292,6 +292,7 @@ font-size: 20px;
   font-size: 13.35px;
   
 }
+
 .people-card{
   background: #F4F5F8;
 border-radius: 20px;
@@ -326,6 +327,7 @@ padding: 3px 20px;
   }
 
 
+
 }
 @media screen and (max-width: 1440px) {
   .container{
@@ -354,6 +356,12 @@ padding: 3px 20px;
   top: 45%;
   bottom: 0;
   left: 35%;
+}
+.contract-title h4{
+  font-size: 12px;
+}
+.contract-title p{
+  font-size: 10px;
 }
 }
 @media screen and (max-width: 1100px) {
