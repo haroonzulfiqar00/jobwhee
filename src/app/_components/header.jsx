@@ -21,8 +21,8 @@ const Header = () => {
             <Nav.Link className="text-light" href="#action3">How It Works</Nav.Link>
           </Nav>
           <div className="d-flex btn-header bg-black">
-            <Button className="me-2  border-light text-light">Sign In</Button>
-            <Button className="bg-light border-light text-black">Sign Up</Button>
+            <Button className="me-2">Sign In</Button>
+            <Button className="">Sign Up</Button>
           </div>
         </Navbar.Collapse>
       </Container>
